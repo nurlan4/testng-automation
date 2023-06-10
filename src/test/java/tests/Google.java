@@ -10,4 +10,10 @@ public class Google {
         Driver.getDriver().get("https://www.google.com/");
         Driver.quit();
     }
+    @Test
+    public void googleImage(){
+        Driver.getDriver().get("https://www.google.com/");
+        System.out.println("Google images");
+        Driver.quit();
+    }
 }
