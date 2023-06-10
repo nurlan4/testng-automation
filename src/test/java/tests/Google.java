@@ -9,6 +9,7 @@ public class Google {
     public void google(){
         Driver.getDriver().get("https://www.google.com/");
         Driver.quit();
+        System.out.println("test");
     }
     @Test
     public void googleImage(){
